@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+img {
+  width: 35%;
+  height: 35%;
+  border-radius: 25px;
+
+}
+.movie-container{
+  width:350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.poster{
+  width: 350px;
+  margin-top: 20px;
+  object-fit:cover;
+}
+
+.movie{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  gap: 16px;
+  }
+  .admovie{
+     display: flex;
+     flex-direction: column;
+     align-items:center;
+     justify-content: center;
+  }
+  .admov{
+    margin-top:15px;
+  }
